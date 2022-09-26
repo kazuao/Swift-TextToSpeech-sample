@@ -11,11 +11,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
 
+    @IBAction func tapSpeechButton(_ sender: Any) {
         SpeechManager.shared.speech(text: "赤巻紙青巻紙黄巻紙")
         SpeechManager.shared.speech(text: "隣の客はよく柿食う客だ")
-        SpeechManager.shared.speech(text: "ヴァイオレット・エヴァーガーデン")
-        SpeechManager.shared.speech(text: "極主夫道")
+//        SpeechManager.shared.speech(text: "ヴァイオレット・エヴァーガーデン")
+//        SpeechManager.shared.speech(text: "極主夫道")
     }
 }
 
